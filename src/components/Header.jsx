@@ -23,9 +23,9 @@ function Header() {
             enthusiasts.Get recommendations, join vibrant discussions, <br />{" "}
             and level up your skills one chapter at a time
           </p>
-          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300 cursor-pointer flex items-center gap-2 my-6 uppercase font-bold">
+          <a href="#" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300 cursor-pointer flex items-center gap-2 my-6 uppercase font-bold w-75">
             Review membership options <FaArrowDown />
-          </button>
+          </a>
         </div>
         <div className="right-content w-130 h-155">
           <img

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaStar } from "react-icons/fa";
 function Membership() {
   return (
     <div className="bg-gray-100 h-full">
@@ -54,6 +54,16 @@ function Membership() {
           </a>
         </div>
       </div>
+
+<span className="flex items-center justify-center mt-20 text-orange-500 gap-2">
+    <FaStar />
+    <FaStar />
+    <FaStar />
+    <FaStar />
+    <FaStar />
+</span>
+<h3 className="text-center mt-4 font-bold text-4xl">"This book club transformed my technical <br /> reading from a solitary activity into an <br /> enrichin community experience. The <br /> discussions are gold!"</h3>
+<span className="text-center mt-4 block text-gray-500 pb-20">Sarah chen, Software Architect</span>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import './App.css'
 import Average from './components/Average'
+import DebugList from './components/DebugList'
 import Header from './components/Header'
 import ReadTogether from './components/ReadTogether'
 import TechJourney from './components/TechJourney'
@@ -18,6 +19,7 @@ function App() {
  <Average/>
  <TechJourney/>
  <Membership/>
+ <DebugList/>
     </>
   )
 }
